@@ -44,15 +44,28 @@ img {
 }
 
 .blog-title {
-    font-size: 2rem; /* Makes the title larger */
-    font-weight: bold; /* Emphasizes the title */
-    margin-bottom: 1rem; /* Adds space below the title */
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin-bottom: 1rem; 
 }
 
 .continue-link {
-    color: tomato; /* Tomato color for the text */
-    font-weight: bold; /* Bold text */
-    display: block; /* Make the anchor a block element to allow alignment */
-    text-align: right; /* Align text to the right */
-    margin-top: 1rem; /* Add some space above, if needed */
+    color: tomato; 
+    font-weight: bold; 
+    display: block; 
+    text-align: right; 
+    margin-top: 1rem; 
+}
+article {
+    margin-bottom: 4rem; 
+    border-bottom: 1px solid lightgray; 
+    padding-bottom: 2rem; 
+}
+
+article p::first-letter {
+    font-size: 3rem; 
+    color: lightgray; 
+    float: left; 
+    margin-right: 0.1em; 
+    line-height: 1; 
 }
