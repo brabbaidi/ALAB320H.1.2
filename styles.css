@@ -68,4 +68,11 @@ article p::first-letter {
     float: left; 
     margin-right: 0.1em; 
     line-height: 1; 
+    font-weight: bold; 
+
 }
+
+.copyright {
+    color: lightgray; 
+}
+
